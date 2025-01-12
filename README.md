@@ -15,3 +15,5 @@ auto result = pool.enqueue([](int answer) { return answer; }, 42);
 std::cout << result.get() << std::endl;
 
 ```
+
+加了点中文注释方便学习
